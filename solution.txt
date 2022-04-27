@@ -1,0 +1,25 @@
+//solution
+
+
+//#1
+
+const col = document.querySelectorAll("span");
+for(let color in colors){
+    col[color].style.color=colors[color];
+}
+
+//#2
+const col = document.querySelectorAll("span");
+let i =0;
+for(let color of colors){
+    col[i].style.color=color;
+    i++;
+}
+
+//#3
+const col = document.querySelectorAll("span");
+let i =0;
+for(let color in colors){
+    col[i].style.color=colors[color];
+    i++;
+}
